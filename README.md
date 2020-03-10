@@ -46,11 +46,11 @@ He won 2 Oscars. [Another 83 wins & 169 nominations](https://www.imdb.com/name/n
 
 ![fork](./img/fork.png)
 
-1. Clone your forked repository project `https://github.com/YOUR_USERNAME/bib`
+1. Clone your forked repository project `https://github.com/YOUR_USERNAME/denzel`
 
 ```sh
 ❯ cd /path/to/workspace
-❯ git clone git@github.com:YOUR_USERNAME/bib.git
+❯ git clone git@github.com:YOUR_USERNAME/denzel.git
 ```
 
 2. **[Do things](https://github.com/92bondstreet/denzel#%EF%B8%8F-steps-to-do)**
