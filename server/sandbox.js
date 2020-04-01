@@ -13,6 +13,12 @@ async function start (actor = DENZEL_IMDB_ID, metascore = METASCORE) {
     console.log(JSON.stringify(movies, null, 2));
     console.log(`🥇 ${awesome.length} awesome movies found.`);
     console.log(JSON.stringify(awesome, null, 2));
+    //Data to File
+      var fs = require('fs');
+	    var movieData = JSON.stringify(movies,null,2);
+      var awesomeData=JSON.stringify(awesome, null, 2)
+	    fs.writeFileSync('movies.json',movieData);
+      fs.writeFileSync('awesome.json',awesomeData);
     process.exit(0);
   } catch (e) {
     console.error(e);

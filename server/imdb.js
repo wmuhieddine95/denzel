@@ -14,7 +14,7 @@ const getFilmography = async actor => {
     const response = await axios(`${IMDB_NAME_URL}/${actor}`);
     const {data} = response;
     const $ = cheerio.load(data);
-
+//object Next to it
     return $('#filmo-head-actor + .filmo-category-section .filmo-row b a')
       .map((i, element) => {
         return {
